@@ -10,7 +10,7 @@
 <div align="center">
   <h3>A modern, drag-and-drop Kanban board built with React and TypeScript</h3>
   
-  <p>✨ <a href="https://kanbanify-app.vercel.app" target="_blank">Live Demo</a> ✨</p>
+  <p>✨ <a href="https://kanbanify-khaki.vercel.app/" target="_blank">Live Demo</a> ✨</p>
 </div>
 
 ![Kanbanify Demo](https://your-screenshot-url-here.png)
@@ -45,8 +45,8 @@
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/kanban-board-fs.git
-   cd kanban-board-fs
+   git clone https://github.com/n1shan1/kanbanify.git
+   cd kanbanify
    ```
 
 2. Install dependencies
@@ -80,8 +80,7 @@
 
 The application is deployed using Vercel:
 
-- **Production URL**: [https://kanbanify-app.vercel.app](https://kanbanify-app.vercel.app)
-- **Deployment Dashboard**: [Vercel Dashboard](https://vercel.com/yourusername/kanbanify-app)
+- **Production URL**: [https://kanbanify-app.vercel.app](https://kanbanify-khaki.vercel.app/)
 
 ## 🧪 Future Enhancements
 
