@@ -1,54 +1,102 @@
-# React + TypeScript + Vite
+# 🚀 Kanbanify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/DND_Kit-FF6B6B?style=for-the-badge" alt="DND Kit" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+</div>
 
-Currently, two official plugins are available:
+<div align="center">
+  <h3>A modern, drag-and-drop Kanban board built with React and TypeScript</h3>
+  
+  <p>✨ <a href="https://kanbanify-app.vercel.app" target="_blank">Live Demo</a> ✨</p>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Kanbanify Demo](https://your-screenshot-url-here.png)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Intuitive Drag & Drop Interface** - Easily move tasks between columns
+- **Custom Columns** - Create, edit, and delete columns to organize your workflow
+- **Task Management** - Add, edit and remove tasks with a simple interface
+- **Real-time Updates** - See changes immediately with smooth animations
+- **Responsive Design** - Works seamlessly on desktop and mobile devices
+- **Modern UI/UX** - Clean interface with visual feedback and animations
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Technologies Used
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React** - Frontend library for building user interfaces
+- **TypeScript** - Static type-checking for enhanced development
+- **DND Kit** - Drag and drop toolkit for React
+- **Framer Motion** - Animation library for React
+- **TailwindCSS** - Utility-first CSS framework
+- **React-Toastify** - Notification system for user feedback
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Prerequisites
+
+- Node.js (v14.0.0 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/yourusername/kanban-board-fs.git
+   cd kanban-board-fs
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 🧩 How to Use
+
+1. **Create a Column**: Click the "Create Column" button to add a new column
+2. **Add Tasks**: Click "Add Task" at the bottom of any column
+3. **Edit Tasks or Columns**: Click on any task or column title to edit it
+4. **Move Tasks**: Drag and drop tasks between columns
+5. **Rearrange**: Drag columns to reorder them
+6. **Delete**: Use the trash icon to remove tasks or columns
+
+## 🌐 Deployment
+
+The application is deployed using Vercel:
+
+- **Production URL**: [https://kanbanify-app.vercel.app](https://kanbanify-app.vercel.app)
+- **Deployment Dashboard**: [Vercel Dashboard](https://vercel.com/yourusername/kanbanify-app)
+
+## 🧪 Future Enhancements
+
+- User authentication and personal boards
+- Data persistence with backend integration
+- Collaborative features for team usage
+- Dark/light theme toggle
+- Advanced filtering and searching capabilities
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgements
+
+- [DND Kit](https://dndkit.com/) for the powerful drag and drop functionality
+- [Framer Motion](https://www.framer.com/motion/) for the smooth animations
+- [React-Toastify](https://fkhadra.github.io/react-toastify/) for notification system
